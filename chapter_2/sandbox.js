@@ -72,5 +72,34 @@ let likes = 10;
 
 likes++
 likes-=5
+likes /= 2;
+
 
 console.log(likes)
+
+//NaN - not a number
+
+//console.log(5 / 'hello')
+
+let result5 = 'the blog has ' + likes + ' likes'
+
+console.log(result5);
+
+// template strings
+
+const title = 'best reads of 2019';
+const author = 'mario';
+const likes2 = 30;
+
+// concatenation way
+// let result = 'The blog called ' + title + ' by ' + author + ' has ' + likes + 'likes';
+//console.log(result)
+
+//template string way
+let result6 = `The blog called ${title} by ${author} has ${likes2} likes`
+
+console.log(result6)
+
+
+//creating html templates
+
