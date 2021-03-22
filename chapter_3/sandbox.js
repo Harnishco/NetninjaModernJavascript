@@ -16,9 +16,25 @@ for(let b = 0; b < names.length; b++){
     console.log(html)
 }
 
+
 let c = 0;
 
-while(c < 1000){
+while(c < 10){
     console.log('in loop: ', c);
     c++;
 }
+
+let d = 0;
+while(d < names.length){
+    console.log(names[d])
+    d++;
+}
+
+let e = 5;
+do{
+    console.log('val of e is: ', e);
+    e++;
+}
+while(e < 5)
+
+console.log('https://youtu.be/JloLGV9DmtQ?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc&t=1035')
