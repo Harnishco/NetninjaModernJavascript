@@ -95,5 +95,46 @@ for(let i = 0; scores.length; i++){
     
 }
 
+// switch statements
+const grade = 'D'
+
+switch(grade){
+    case 'A':
+        console.log('you got and a')
+        break;
+    case 'B':
+        console.log('you got and B')
+        break;
+    case 'C':
+        console.log('you got and C')    
+        break;
+    case 'D':
+        console.log('you got and D')
+        break;
+    case 'E':
+        console.log('you got and E')
+        break;
+    default:
+        console.log('Not a valid grade')    
+}
+
+//variables & block scope
+
+let ages1 = 41;
+
+if(true){
+    let ages1 = 23;
+    let name = 'colin'
+    console.log('inside 1st code block: ', ages1, name);
+}
+
+if(true){
+    let ages1 = 50;
+    console.log('inside 2nd code block', ages1)
+    var test = 'hello'
+}
+
+console.log('outside code block; ', ages1);
+
 
 
