@@ -94,3 +94,4 @@ const bill = function(products, tax){
     }
     return total;
 }
+
